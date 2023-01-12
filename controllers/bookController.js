@@ -192,6 +192,7 @@ exports.book_create_post = [
       if (err) {
         return next(err)
       }
+      
       // Successful: redirect to new book record.
       res.redirect(book.url)
     })
