@@ -16,3 +16,5 @@ Node with Express back end connected to a MongoDB database, using mongoose to co
 
 ## Optimizations
 The UTC time is messing up my dates. All dates are 1 day behind what was entered in the browse. Don't know how to fix that.
+
+A should add prettier / linting
